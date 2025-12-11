@@ -34,3 +34,20 @@ ON UPDATE CASCADE,
 CONSTRAINT ck_dia
 CHECK(dia IN('L','M','X','J','V','S','D'))
 );
+
+/*
+Ejercicio de modificación de contenido de una tabla
+Modifying a table's content exercise
+*/
+
+ALTER TABLE ruta ADD distancia varchar(50) not null;
+
+ALTER TABLE ruta MODIFY distancia smallint not null;
+
+ALTER TABLE ruta ADD CONSTRAINT ck_distancia CHECK(distancia > 0);
+
+ALTER TABLE ruta DROP constraint ck_distancia;
+
+ALTER TABLE ruta CHANGE distancia km smallint not null;
+
+ALTER TABLE ruta ADD CONSTRAINT ck_km CHECK(km > 0);
