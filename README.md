@@ -1,1 +1,3 @@
-The “ejerciciosMySQL” folder contains folders with all the MySQL scripts created (by my own and created in class)
+The “ejerciciosMySQL” folder contains MySQL scripts.
+
+La carpeta de "ejerciciosMySQL" contiene scripts de MySQL.
