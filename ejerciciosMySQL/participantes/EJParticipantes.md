@@ -1,0 +1,1 @@
+Create the SQL file with the model gived in "Participantes-ModeloLogicoRelacional.jpg"
